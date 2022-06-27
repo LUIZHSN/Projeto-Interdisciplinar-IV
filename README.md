@@ -1,36 +1,17 @@
-![header](https://user-images.githubusercontent.com/38620899/106385660-2de04b00-63b0-11eb-9747-843cdc397c76.PNG)
+![Flappy Bird](https://user-images.githubusercontent.com/57970582/176053345-b352b552-5702-46e2-93ac-16bbd98f5df5.png)
 
-> Status: Developing ⚠️
+> Status: Este documento esta em manutenção ⚠️
 
-### It is a web application planned by me, where I perform the CRUD of Calisthenics Movements.
+### Projeto Interdisciplinar IV - UniFasipe.
++ Acadêmico: Luiz Henrique Santos Nascimento.
++ 5º Semestre da UniFasipe - Turno: Noturno.
 
-## Some fields in main Model is:
+### Tema
++ Programa em JS que aprende a jogar Flappy Bird por aprendizado de máquina (Neuroevolution).
+##
 
-+ name 
-+ description
-+ repetation num
-+ sequency num
-+ dificult category
-+ i know
-+ user_id
-+ image
-  
-Also that, has a User with this fields:
-
-+ name
-+ email
-+ cpf
-+ birth
-+ active
-
-## In addition to CRUD, I implement other features such as:
-
-* See the more recently movement created, using Cookie.
-* Entire verification system to validate forms with personalized messages.
-* Message of success when create a movement, using Session Flash.
-* Profile User editable.
-
-## This features are in developing:
+### 1.0 - Resumo
+A tecnologia hoje disponível para uso pessoal e profissional vem causando muitas mudanças em nossos hábitos, em nossa forma de comunicação bem como nos relacionamentos entre pessoas. Tais mudanças vieram para dentro de nossas realidades e nos fizeram repensar a forma de como aprender, de como estar em contato com meu cliente, meu amigo, minha família, tornando em especial as tecnologias móveis ferramentas indispensáveis para quaisquer pessoas.
 
 - Search for movements by name and/or dificulted category.
 - Email verification.
