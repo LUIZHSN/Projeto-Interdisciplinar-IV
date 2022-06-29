@@ -54,4 +54,4 @@ Linguagem Utilizada:
 5) copy and past in your .env
 ##
 ### Demo do Projeto
-<center><img src="![Projeto Interdiciplinar](https://user-images.githubusercontent.com/57970582/176513065-fc651a27-bcbf-4a27-821b-20b07f0e8ac2.gif)"></center>
+<center><img src="https://user-images.githubusercontent.com/57970582/176513065-fc651a27-bcbf-4a27-821b-20b07f0e8ac2.gif"></center>
