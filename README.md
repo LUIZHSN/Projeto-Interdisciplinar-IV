@@ -10,26 +10,28 @@
 + Programa em JS que aprende a jogar Flappy Bird por aprendizado de máquina (Neuroevolution).
 ##
 
-### 1.0 - Resumo
-A tecnologia hoje disponível para uso pessoal e profissional vem causando muitas mudanças em nossos hábitos, em nossa forma de comunicação bem como nos relacionamentos entre pessoas. Tais mudanças vieram para dentro de nossas realidades e nos fizeram repensar a forma de como aprender, de como estar em contato com meu cliente, meu amigo, minha família, tornando em especial as tecnologias móveis ferramentas indispensáveis para quaisquer pessoas.
+### 1.0 - Introdução
 
-- Search for movements by name and/or dificulted category.
-- Email verification.
+Sobre o jogo: Flappy Bird é um jogo de celular lançado em 2013 pelo desenvolvedor vietnamita Dong Nguyen. O jogo alcançou um rápido sucesso por ser incrivelmente simples e frustrante: sua única ação disponível é tocar na tela e fazer o passarinho subir um pouco enquanto ele está constantemente caindo e se movendo para direita. Com isso o jogador deve desviar de canos vindo em sua direção, a cada cano desviado o jogador aumenta sua pontuação.
 
-## Technologies Used:
+Por conta de sua simplicidade o jogo "Flappy Bird" foi a minha escolha para dar inicio ao projeto.
+##
 
+### 2.0 Algoritmo
+
+
+### FluxoGrama do Algoritmo 
+![Projeto Interdiciplinar](https://user-images.githubusercontent.com/57970582/176508140-4db59f7a-9759-4531-b03a-a376400a4e21.png)
+
+Linguagem Utilizada:
 <table>
   <tr>
-    <td>PHP</td>
-    <td>Laravel</td>
-    <td>Composer</td>
-    <td>MySql</td>
+    <td>HTML</td>
+    <td>JavaScript</td>
   </tr>
   <tr>
-    <td>6.*</td>
-    <td>7.4</td>
-    <td>2.0</td>
-    <td>8.0</td>
+    <td>3.0%</td>
+    <td>97.0%</td>
   </tr>
 </table>
 
