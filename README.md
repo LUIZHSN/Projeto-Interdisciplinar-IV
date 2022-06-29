@@ -1,6 +1,6 @@
 ![Flappy Bird](https://user-images.githubusercontent.com/57970582/176053345-b352b552-5702-46e2-93ac-16bbd98f5df5.png)
 
-> Status: Este documento esta em manutenção ⚠️
+> Status: Em Progresso ⚠️
 
 ### Projeto Interdisciplinar IV - UniFasipe.
 + Acadêmico: Luiz Henrique Santos Nascimento.
@@ -17,11 +17,9 @@ Sobre o jogo: Flappy Bird é um jogo de celular lançado em 2013 pelo desenvolve
 Por conta de sua simplicidade o jogo "Flappy Bird" foi a minha escolha para dar inicio ao projeto.
 ##
 
-### 2.0 Algoritmo
+### 2.0 Algoritmo 
 
-
-### FluxoGrama do Algoritmo 
-![Projeto Interdiciplinar](https://user-images.githubusercontent.com/57970582/176508140-4db59f7a-9759-4531-b03a-a376400a4e21.png)
+A "Neuroevolution.js" Funciona da seguinte maneira, captando os dados do "game.js" como velocidade, gravidade e etc... Ela utiliza com parâmetros esses dados para iniciar o game. Ela comeca crinando a "primeira Geração", a primeria geração é composta por 50 Birds que será seu ponto inicial para o decorrer da IA. Entao ela começa dando o comando para eles pularam enquanto o jogo está com os obstáculo em movimento. E quando o numero de vivos chega a zero(0) a IA pega e salva os dados dos melhores Birds nomeados como "elitism". Esses seres são os melhores Birds da geração em que eles foram criados e a IA utiliza os dados deles para criar a proxima geração e assim ir se aperfeirando até alcancar o ponto desejado que é a IA aprende como jogoo funciona e fica jogando para sempre.
 
 Linguagem Utilizada:
 <table>
@@ -35,7 +33,12 @@ Linguagem Utilizada:
   </tr>
 </table>
 
-## How to run the application:
+### 2.1 Fluxograma do Algoritmo 
+![Projeto Interdiciplinar](https://user-images.githubusercontent.com/57970582/176508140-4db59f7a-9759-4531-b03a-a376400a4e21.png)
+
+## 
+
+### How to run the application:
 
 1) run shell: composer install
 2) run shell: php artisan key:generate
@@ -54,4 +57,6 @@ Linguagem Utilizada:
 5) copy and past in your .env
 ##
 ### Demo do Projeto
-<center><img src="https://user-images.githubusercontent.com/57970582/176513065-fc651a27-bcbf-4a27-821b-20b07f0e8ac2.gif"></center>
+<center>
+  <img src="https://user-images.githubusercontent.com/57970582/176513065-fc651a27-bcbf-4a27-821b-20b07f0e8ac2.gif">
+</center>
