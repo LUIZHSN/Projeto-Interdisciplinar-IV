@@ -46,24 +46,86 @@ Linguagem Utilizada:
 Segue agora alguns trechos do Algoritmo da [NeuroEvolution.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/Neuroevolution.js)
 
 + NEURON
+
 ```js
-
+var Neuron = function () {
+		this.valor = 0;
+		this.weights = [];
+	}
+  //Inicialize o número de pesos de neurônios para valores fixos aleatórios.
+  Neuron.prototype.populate = function (nb) {
+		this.weights = [];
+		for (var i = 0; i < nb; i++) {
+			this.weights.push(self.options.randomClamped());
+		}
+	}
 ```
-
 <br>
 
 + LAYER
+
+Classe de camada de rede neural.
 ```js
-
+var Layer = function (index) {
+		this.id = index || 0;
+		this.neurons = [];
+	}
+  //Preencha a camada com um conjunto de neurônios ponderados aleatoriamente.
+  //Cada Neurônio deve ser inicializado com entradas nbInputs com um random clamped.
+  Layer.prototype.populate = function (nbNeurons, nbInputs) {
+		this.neurons = [];
+		for (var i = 0; i < nbNeurons; i++) {
+			var n = new Neuron();
+			n.populate(nbInputs);
+			this.neurons.push(n);
+		}
+	}
 ```
-
 <br>
 
-+ NEURAL NETWORK
++ GENOME
+
+Classe do genoma.
+Composto por uma partitura e uma Rede Neural.
 ```js
-
+var Genome = function (score, network) {
+		this.score = score || 0;
+		this.network = network || null;
+	}
 ```
+<br>
 
++ GENERATION
+```js
+var Generation = function () {
+		this.genomes = [];
+	}
+ //Adicionar um genoma à geração.
+ 	Generation.prototype.addGenome = function (genome) {
+		// Localize a posição para inserir o Genoma.
+		// Os gnomos devem permanecer ordenados.
+		for (var i = 0; i < this.genomes.length; i++) {
+			// Classificar em ordem decrescente.
+			if (self.options.scoreSort < 0) {
+				if (genome.score > this.genomes[i].score) {
+					break;
+				}
+				// Classificar em ordem crescente.
+			} else {
+				if (genome.score < this.genomes[i].score) {
+					break;
+				}
+			}
+
+		}
+
+		// Insira o genoma na posição correta.
+		this.genomes.splice(i, 0, genome);
+	}
+
+  
+```
+<br>
 
 ##
 
