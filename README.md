@@ -52,5 +52,6 @@ Linguagem Utilizada:
 3) go to SMT settigns
 4) choice Laravel option in Integrations
 5) copy and past in your .env
-
-<center><img src="https://user-images.githubusercontent.com/38620899/106393900-5aa85880-63d8-11eb-88f1-07ac30adad80.gif"></center>
+##
+### Demo do Projeto
+<center><img src="![Projeto Interdiciplinar](https://user-images.githubusercontent.com/57970582/176513065-fc651a27-bcbf-4a27-821b-20b07f0e8ac2.gif)"></center>
