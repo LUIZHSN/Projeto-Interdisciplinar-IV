@@ -10,23 +10,37 @@
 + Programa em JS que aprende a jogar Flappy Bird por aprendizado de máquina (Neuroevolution).
 ##
 
+# APRESENTAÇÃO
+
 ### 1.0 - Introdução
 
-Sobre o jogo: Flappy Bird é um jogo de celular lançado em 2013 pelo desenvolvedor vietnamita Dong Nguyen. O jogo alcançou um rápido sucesso por ser incrivelmente simples e frustrante: sua única ação disponível é tocar na tela e fazer o passarinho subir um pouco enquanto ele está constantemente caindo e se movendo para direita. Com isso o jogador deve desviar de canos vindo em sua direção, a cada cano desviado o jogador aumenta sua pontuação.
+Sobre o jogo: Flappy Bird é um jogo de celular lançado em 2013 pelo desenvolvedor vietnamita Dong Nguyen. O jogo alcançou um rápido sucesso por ser incrivelmente simples e frustrante: sua única ação disponível é tocar na tela e fazer o passarinho subir um pouco enquanto ele está constantemente caindo e se movendo para direita. Com isso o jogador deve desviar de canos vindo em sua direção, a cada cano desviado o jogador aumenta sua pontuação. 
 
-Por conta de sua simplicidade o jogo "Flappy Bird" foi a minha escolha para dar inicio ao projeto.
+Por conta de sua simplicidade, o jogo "Flappy Bird" foi a minha escolha para dar início ao projeto.
+
 ##
 
 ### 2.0 Objetivo
-Fazer com que a IA ([NeuroEvolution.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/Neuroevolution.js)) desenvolva o conhecimento para jogar o jogo eletrônico Flappy Bird utilizando o metodo "Tentativa e Erro". Filtrando os erros e salvando os dados até alcançar um ponto onde a mesma irá achar o método de como jogar Flappy Bird sem errar e acabar acertando os obstáculos.
+
+Fazer com que a IA ([NeuroEvolution.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/Neuroevolution.js)) desenvolva o conhecimento para jogar o jogo eletrônico Flappy Bird utilizando o método "Tentativa e Erro". Filtrando os erros e salvando os dados dos acertos até alcançar um ponto onde a mesma irá achar o método de como jogar Flappy Bird sem errar e acabar passando pelos obstáculos
 
 ##
 
 ### 3.0 Desenvolvimento 
 
-A ([NeuroEvolution.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/Neuroevolution.js)) Funciona da seguinte maneira, captando os dados do ([Game.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/game.js)) como velocidade, gravidade e etc... Ela utiliza como parâmetros esses dados para iniciar o game. Ela começa crinando a "primeira Geração", a primeria geração é composta por 50 Birds que será seu ponto inicial para o decorrer da IA. Entao ela começa dando o comando para eles pularam enquanto o jogo está com os obstáculo em movimento. E quando o numero de vivos chega a zero(0) a IA pega e salva os dados dos melhores Birds nomeados como "elitism". Esses seres são os melhores Birds da geração em que eles foram criados e a IA utiliza os dados deles para criar a proxima geração e assim ir se aperfeirando até alcancar o ponto desejado que é a IA aprende como jogoo funciona e fica jogando para sempre.
+A ([NeuroEvolution.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/Neuroevolution.js)) Funciona da seguinte maneira, captando os dados do ([Game.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/game.js)) como velocidade, gravidade e etc... Ela utiliza como parâmetros esses dados para iniciar o game.js Ela começa criando a "primeira Geração", a primeira geração é composta por 50 “Birds” que será seu ponto inicial para o decorrer da IA. Então ela começa dando o comando para eles pularam enquanto o jogo está com os obstáculos em movimento. E quando o número de vivos chega a zero(0) a IA pega e salva os dados dos melhores “Birds” nomeados como "elitism". Esses seres são os melhores “Birds” da geração em que eles foram criados e a IA utiliza os dados deles para criar a próxima geração e assim ir se aperfeiçoando até alcançar o ponto desejado que é a IA aprenda como jogo funciona e fica jogando para sempre. 
 
-Linguagem Utilizada:
+##
+
+### 4.0 Algoritmo
++ 4.1 Fluxograma do Algoritmo
+
+![Projeto Interdiciplinar](https://user-images.githubusercontent.com/57970582/176508140-4db59f7a-9759-4531-b03a-a376400a4e21.png)
+
+Este é o fluxograma do algoritmo de como se comporta perante às atividades em jogo. Nota-se que o ponto chave do algoritmo é quando todos os seres vivos no ambiente da máquina morrem, pois é nesse momento onde ela se pergunta hipoteticamente “O número de vivos da geração atual é igual a zero ?” E nesse ponto onde a máquina salva os melhores pássaros e cria a nova geração com esses novos dados e fica nesse “looping” de aprendizagem até criar um Birds com os dados certos para que esse consiga passar pelos obstáculos do game e não ser atingido e assim então sair do “looping” de aprendizagem.
+
++ 4.2 Linguagem Utilizada
+
 <table>
   <tr>
     <td>HTML</td>
@@ -38,12 +52,13 @@ Linguagem Utilizada:
   </tr>
 </table>
 
-### 3.1 Fluxograma do Algoritmo 
-![Projeto Interdiciplinar](https://user-images.githubusercontent.com/57970582/176508140-4db59f7a-9759-4531-b03a-a376400a4e21.png)
+Toda a NeuroEvolution quanto o jogo foram desenvolvidos em JavaScript, uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma, juntamente com HTML.
+
+
 ##
 
-### 4.0 Algoritmo
-Segue agora alguns trechos do Algoritmo da [NeuroEvolution.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/Neuroevolution.js)
+### 4.0 Código
+Segue agora alguns trechos do código da [NeuroEvolution.js](https://github.com/LUIZHSN/ProjetoInterdisciplinarIV/blob/main/Neuroevolution.js)
 
 + NEURON
 
@@ -126,6 +141,12 @@ var Generation = function () {
   
 ```
 <br>
+
+##
+
+#  REFERÊNCIAS BIBLIOGRÁFICAS
+
+sasasaaas
 
 ##
 
