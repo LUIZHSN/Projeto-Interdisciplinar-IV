@@ -145,8 +145,26 @@ var Generation = function () {
 ##
 
 #  REFERÊNCIAS BIBLIOGRÁFICAS
+Rede neural artificial
+https://www.scielo.br/j/rbeaa/a/rSxZNs36XgFcVNKCzJJ63XQ/abstract/?lang=pt
 
-sasasaaas
+Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer
+https://www.usenix.org/conference/usenixsecurity20/presentation/lee-suyoung
+
+ESTUDO PARA O DESENVOLVIMENTO DE APLICATIVO BASEADO EM INTELIGÊNCIA ARTIFICIAL PARA CAPTAÇÃO DE VOLUNTÁRIOS PARA ATUAÇÃO NO 3° SETOR COM DISPONIBILIZAÇÃO DE AÇÕES NO 2° SETOR
+http://revistas.ung.br/index.php/computacaoaplicada/article/view/3510
+
+CLASSIFICAÇÃO DE COMPONENTES ELETRÔNICOS EM PLACA DE CIRCUITO IMPRESSO UTILIZANDO MACHINE LEARNING.
+https://periodicos.ufam.edu.br/index.php/BIUS/article/view/10682
+
+Artificial Intelligence
+https://hdsr.mitpress.mit.edu/pub/0aytgrau/release/3?readingCollection=72befc2a
+
+Artificial Intelligence for Games
+https://www.taylorfrancis.com/books/mono/10.1201/9781315375229/artificial-intelligence-games-ian-millington-john-funge
+
+Artificial Intelligence and Games
+https://link.springer.com/book/10.1007/978-3-319-63519-4?noAccess=true
 
 ##
 
